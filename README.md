@@ -38,3 +38,6 @@ creation of EKS cluster and whitelisting of Source IP via ingress
 # For whitelisting of source IP
 > We need to add the parameter "alb.ingress.kubernetes.io/inbound-cidrs: SourceIP/32" under the annotations parts inside the ingress.yaml for the whitelisting of source ip 
 
+#  Results :
+[a link](https://github.com/jtrnegi/opstree/blob/main/results.odg)
+
