@@ -17,8 +17,7 @@ creation of EKS cluster and whitelisting of Source IP via ingress
 > kubectl apply -f rbac.yaml
 
 # 5) Create the ALB and ingress controller
->use the alb-ingress-controller.yaml
->kubectl apply -f alb-ingress-controller.yaml
+>use the alb-ingress-controller.yaml  , kubectl apply -f alb-ingress-controller.yaml
 
 
 # Deployment of sample application
