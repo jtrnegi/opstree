@@ -10,7 +10,7 @@ creation of EKS cluster and whitelisting of Source IP via ingress
 # 2) Create a IAM policy for ingress controller from IAM 
 > use the IAM.json file and create a new policy 
 
-# 3) Attach the new created IAM policy to the EKS worker node
+# 3) Attach the newly created IAM policy to the EKS worker node
 
 # 4) Deploy RBAC and Rolebindings
 > use the file rbac.yaml to create the same
